@@ -29,8 +29,10 @@ export default function Navbar() {
         <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
           <IconButton size={"md"} icon={isOpen ? <CloseIcon /> : <HamburgerIcon />} aria-label={"Open Menu"} display={{ md: "none" }} onClick={isOpen ? onClose : onOpen} />
           <HStack spacing={8} alignItems={"center"}>
-            <Box>Logo</Box>
-            <HStack as={"nav"} spacing={4} display={{ base: "none", md: "flex" }}>
+            <Box as="button" fontSize={{ base: "1xl", md: "3xl" }} fontWeight="bold">
+              ariskaAdi
+            </Box>
+            <HStack as={"nav"} spacing={4} display={{ base: "none", md: "flex" }} ml={{ base: 0, md: 20 }}>
               {Links.map((link) => (
                 <NavLink key={link}>{link}</NavLink>
               ))}
@@ -44,7 +46,7 @@ export default function Navbar() {
         </Flex>
 
         {isOpen ? (
-          <Box pb={4} display={{ md: "none" }}>
+          <Box pb={4} display={{ md: "none" }} fontWeight={"bold"}>
             <Stack as={"nav"} spacing={4}>
               {Links.map((link) => (
                 <NavLink key={link}>{link}</NavLink>
