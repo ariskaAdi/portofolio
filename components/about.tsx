@@ -8,7 +8,7 @@ export default function About() {
       <Container maxW={{ sm: "100vh", md: "100%" }} bg={"black"} color={"white"}>
         <Stack as={Box} textAlign={"center"} spacing={{ base: 8, md: 14 }} py={{ base: 20, md: 36 }}>
           <Heading fontWeight={600} fontSize={{ base: "2xl", sm: "4xl", md: "6xl" }} lineHeight={"110%"}>
-            ABOUTME
+            ABOUT ME
             <br />
             <Text as={"span"} color={"#c897ee"} fontFamily={"monospace"}>
               Unveiling the Digital Frontier

@@ -7,23 +7,49 @@ export default function Services() {
         <Flex p={8} flex={1} align={"center"} justifyContent={"space-between"} padding={{ base: 10, md: 20 }}>
           <Stack spacing={6} w={"full"} maxW={"lg"}>
             <Heading fontSize={{ base: "1xl", md: "3xl", lg: "5xl" }} fontStyle={"italic"}>
-              PERKS TO WORK
+              ONE SERVICES
               <br />
-              <Text as={"span"}>WITH ME</Text>
+              <Text as={"span"}>AT A TIME</Text>
             </Heading>
           </Stack>
-          <Stack direction={{ base: "column", md: "row" }} spacing={4}>
-            <Button
-              rounded={"full"}
-              bg={"blue.400"}
-              color={"white"}
-              _hover={{
-                bg: "blue.500",
-              }}
-            >
-              Create Project
-            </Button>
-            <Button rounded={"full"}>How It Works</Button>
+          <Stack direction={{ base: "column", md: "row" }} spacing={{ base: 4, sm: 20 }}>
+            <Text fontSize={{ base: "sm", lg: "lg" }} color={"gray.500"}>
+              <Text as={"span"} fontWeight={"bold"} _hover={{ color: "gray.600" }}>
+                Smart Contracts
+              </Text>{" "}
+              <br />
+              ERC-20
+              <br />
+              ERC-721
+              <br />
+              ERC-1155
+              <br />
+              Custom Contracts
+            </Text>
+            <Text fontSize={{ base: "md", lg: "lg" }} color={"gray.500"}>
+              <Text as={"span"} fontWeight={"bold"} _hover={{ color: "gray.600" }}>
+                DAPP
+              </Text>{" "}
+              <br />
+              Stacking Coins
+              <br />
+              DEX Clone
+              <br />
+              NFT Marketplace
+              <br />
+              etc
+            </Text>
+            <Text fontSize={{ base: "md", lg: "lg" }} color={"gray.500"}>
+              <Text as={"span"} fontWeight={"bold"} _hover={{ color: "gray.600" }}>
+                WEB 2.0
+              </Text>{" "}
+              <br />
+              Fullstack
+              <br />
+              UI/UX Design
+              <br />
+              Maintenence
+            </Text>
           </Stack>
         </Flex>
       </Stack>

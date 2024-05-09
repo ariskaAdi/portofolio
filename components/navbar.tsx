@@ -1,6 +1,6 @@
 "use client";
 
-import { Box, Flex, HStack, IconButton, Menu, useDisclosure, Stack } from "@chakra-ui/react";
+import { Box, Flex, HStack, IconButton, Menu, useDisclosure, Stack, Heading } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import ButtonOne from "./button";
 import Link from "next/link";
@@ -15,7 +15,7 @@ const NavLink = (props: Props) => {
   const { children } = props;
 
   return (
-    <Box as="a" px={2} py={1} rounded={"md"} _hover={{}} href={"#"}>
+    <Box as="a" px={2} py={1} rounded={"md"} _hover={{ textDecoration: "underline" }} href={"#"}>
       {children}
     </Box>
   );
