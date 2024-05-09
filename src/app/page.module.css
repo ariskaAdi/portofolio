@@ -83,9 +83,10 @@
 
 .buttontwo:hover {
   color: #fff !important;
-  background-color: #1a1a1a !important;
+  background-color: #c897ee !important;
   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px !important;
   transform: translateY(-2px) !important;
+  border: none !important;
 }
 
 .buttontwo:active {

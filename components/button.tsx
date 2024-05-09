@@ -5,7 +5,7 @@ import styles from "../src/app/page.module.css";
 const ButtonOne = () => {
   return (
     <Box as="button" className={styles.buttonone}>
-      Hire Me
+      Contact Me
     </Box>
   );
 };

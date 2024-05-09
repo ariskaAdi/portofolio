@@ -1,16 +1,16 @@
 "use client";
-import { Box, Heading, Container, Text, Button, Stack } from "@chakra-ui/react";
+import { Box, Heading, Container, Text, Stack } from "@chakra-ui/react";
 import ButtonTwo from "./buttontwo";
 
 export default function About() {
   return (
     <>
-      <Container maxW={"100%"} bg={"black"} color={"white"}>
+      <Container maxW={{ sm: "100vh", md: "100%" }} bg={"black"} color={"white"}>
         <Stack as={Box} textAlign={"center"} spacing={{ base: 8, md: 14 }} py={{ base: 20, md: 36 }}>
           <Heading fontWeight={600} fontSize={{ base: "2xl", sm: "4xl", md: "6xl" }} lineHeight={"110%"}>
             ABOUTME
             <br />
-            <Text as={"span"} color={"blueviolet"} fontFamily={"monospace"}>
+            <Text as={"span"} color={"#c897ee"} fontFamily={"monospace"}>
               Unveiling the Digital Frontier
             </Text>
           </Heading>
@@ -19,7 +19,7 @@ export default function About() {
             both front-end and back-end development.
             <br />
             But i didn't stop there. Embracing the rise of Web 3.0, they delved into decentralized applications and blockchain technology. Now, as a Full-Stack Web 3 Developer, i am is at the forefront of building the decentralized web of
-            the future.``
+            the future.
           </Text>
           <Stack direction={"column"} spacing={3} align={"center"} alignSelf={"center"} position={"relative"} mt={0} w={"30%"}>
             <ButtonTwo>Gihub Repo</ButtonTwo>

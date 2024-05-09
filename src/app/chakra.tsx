@@ -4,7 +4,7 @@
 import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 
 const fonts = {
-  heading: "Ivar Display",
+  heading: "Ivar Display Regular",
   body: "ABC Normal, sans-serif",
 };
 

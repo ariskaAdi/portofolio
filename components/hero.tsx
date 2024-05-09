@@ -1,6 +1,6 @@
 "use client";
 
-import { Button, Flex, Heading, Stack, Text, chakra, useBreakpointValue } from "@chakra-ui/react";
+import { Flex, Heading, Stack, Text, chakra, useBreakpointValue } from "@chakra-ui/react";
 import ButtonTwo from "./buttontwo";
 import ButtonThree from "./buttonthree";
 import me from "../public/images/me.jpg";
