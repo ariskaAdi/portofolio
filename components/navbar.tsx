@@ -2,9 +2,8 @@
 
 import { Box, Flex, HStack, IconButton, Menu, useDisclosure, Stack, Heading } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
-import ButtonOne from "./button";
+import ButtonOne from "./button/button";
 import Link from "next/link";
-import Contact from "./contact";
 interface Props {
   children: React.ReactNode;
 }
@@ -41,7 +40,7 @@ export default function Navbar() {
           </HStack>
           <Flex alignItems={"center"}>
             <Menu>
-              <Link href={"#"}>
+              <Link href={"/contact"}>
                 <ButtonOne />
               </Link>
             </Menu>

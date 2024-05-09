@@ -1,6 +1,6 @@
 "use client";
 import { Box } from "@chakra-ui/react";
-import styles from "../src/app/page.module.css";
+import styles from "./button.module.css";
 
 const ButtonOne = () => {
   return (

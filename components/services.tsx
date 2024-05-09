@@ -31,13 +31,13 @@ export default function Services() {
                 DAPP
               </Text>{" "}
               <br />
+              Fullstack
+              <br />
               Stacking Coins
               <br />
               DEX Clone
               <br />
               NFT Marketplace
-              <br />
-              etc
             </Text>
             <Text fontSize={{ base: "md", lg: "lg" }} color={"gray.500"}>
               <Text as={"span"} fontWeight={"bold"} _hover={{ color: "gray.600" }}>
@@ -49,6 +49,8 @@ export default function Services() {
               UI/UX Design
               <br />
               Maintenence
+              <br />
+              Etc
             </Text>
           </Stack>
         </Flex>

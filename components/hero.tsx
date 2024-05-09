@@ -1,10 +1,11 @@
 "use client";
 
 import { Flex, Heading, Stack, Text, chakra, useBreakpointValue } from "@chakra-ui/react";
-import ButtonTwo from "./buttontwo";
-import ButtonThree from "./buttonthree";
+import ButtonTwo from "./button/buttontwo";
+import ButtonThree from "./button/buttonthree";
 import me from "../public/images/me.jpg";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Hero() {
   const MyImage = chakra(Image, {
@@ -29,7 +30,7 @@ export default function Hero() {
                 zIndex: -1,
               }}
             >
-              FuCK OFF!
+              Hi there
             </Text>
             <br /> <Text as={"span"}>Design Projects</Text>{" "}
           </Heading>
@@ -38,7 +39,9 @@ export default function Hero() {
           </Text>
           <Stack direction={{ base: "column", md: "row" }} spacing={4}>
             <ButtonTwo>Download CV</ButtonTwo>
-            <ButtonThree>View Projects</ButtonThree>
+            <Link href="/projects">
+              <ButtonThree>View Projects</ButtonThree>
+            </Link>
           </Stack>
         </Stack>
       </Flex>

@@ -1,6 +1,6 @@
 "use client";
 import { Box, Heading, Container, Text, Stack } from "@chakra-ui/react";
-import ButtonTwo from "./buttontwo";
+import ButtonTwo from "./button/buttontwo";
 
 export default function About() {
   return (
